@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .a{
+        display:block;
+        background-color:lightblue;
+       margin:5px auto;
+       padding:0 1200px 0 5px;
+      }
+      .b{
+        display:inline;
+        background-color:lightgreen;
+        padding: 10px 10px ;
+        margin:10px auto;
+        width:500px; <!-- This statement does not works because inline does not offers so height will also not work-->
+      }
+      .c{
+        display: inline-block;
+        background-color: magenta;
+        padding: 10px 10px;
+        width:100px;
+
+      }
+      .d{
+         background-color: orange; 
+        margin:5px;
+        float:left;  <!-- It can be either ryt lft or none-->
+        width: 50px;
+        height:100px;
+      }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Navigation Menu</h1>
+     <h3>Block Example</h3>
+     <section class="displayinline">
+     <div class="a">Home</div>
+     <div class="a">Products</div>
+     <div class="a">About</div>
+     <div class="a">Contact</div>
+     </section>
+     <h3>Inline Example</h3>
+     <div class="b"> Home</div>
+     <div class="b">Products</div>
+     <div class="b">About</div>
+     <div class="b">Contact</div>
+    <h3> Inline Block Example</h3>
+    <div class="c">Home</div>
+    <div class="c">Products</div>
+    <div class="c">About</div>
+    <div  class="c"> Contacts</div> 
+    <h4>Float Example</h4>
+    <div class="d">Home</div>
+    <div class="d">Products</div>
+    <div class="d">About</div>
+    <div class="d"> Contacts</div>
+</body>
+</html>
