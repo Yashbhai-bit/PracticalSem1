@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .header{
+        background-color: #333;
+        color : white;
+    }
+    .btn{
+          background-color:white;
+          color:black;
+          padding: 12px 24px;
+          border:1px solid;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: 0.3s;
+        }
+        .btn:hover{
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+    .img{
+          object-fit: contain;
+    }
+    .abc img{
+         width:100%;
+         height:100%;
+         object-fit: contain;
+    }
+    .container{
+        height:500px;
+        display:flex;
+        justify-content:space-around;
+
+    }
+    .abc{
+     background-color: white;
+     border-radius: 8px;
+     border:1px dotted white;
+     margin-left: 40px;
+     margin-right: 40px ; 
+     display:block;
+     text-align: center;
+     backdrop-filter: blur(10px);
+     box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+     transition: transform 0.3s ease;
+     margin-top: 20px;
+     width:50%;
+     height:100%;
+     object-fit: contain;
+       
+      }
+      .abc:hover{
+        transform:scale(1.03);
+      }
+    
+        
+    </style>
+</head>
+<body>
+    <HEADER>
+    <H1 style="text-align: center;">Best Selling Items</H1>
+    </Header>
+    <section>
+        <div class="container">
+        <div class="abc">
+            <a href="https://www.oneplus.in/product/product/oneplus-nord-buds-3?sku=5481158704" target="_blank">
+            <img src="ONEPLUS.jpeg" ></a>
+            <h3>One Plus </h3>
+            <P> OnePlus Half In-Ear Wired Digital Earphones Type-C. 23% off, Sleek black and red headphones with circular shape and metallic controls.<BR>₹1,299</P>
+            <button class="btn">ADD TO CART</button>
+        </div>
+        <div class="abc">
+            <a href="https://www.amazon.in/TIZOQ-SecondGeneration-Earphones-Bluetooth-Wireless/dp/B0CWV63NSV" target="_blank">
+            <img src="TIZOQEARPODS.jpg"></a>
+            <H3>TIZOQ</H3>
+            <p>40% off TIZOQ Earpods Pro Secondgeneration Earphones With Bluetooth Wireless Headphones | Bluetooth Wireless Headphones (Black)<br>₹3000 </p>
+            <button class="btn">ADD TO CART</button>
+        </div>
+          <div class="abc">
+            <a href="https://www.flipkart.com/gionee-feather-pods-splash-proof-ultra-light-true-wireless-stereo-ear-buds-bluetooth/p/itm701cd3c6f8da1" target="_blank">
+            <img src="gINOEE.webp"></a>
+            <H3>LEVO</H3>
+            <p>ENC, Fast Charging Dual Pairing Wireless Earbuds Bluetooth Headset. 88%.<br> ₹3,199. </p>
+            <button class="btn">ADD TO CART</button>
+        </div>
+         <div class="abc">
+            <a href="https://www.amazon.in/Wireless-Integrated-Controls-Type-C-Charging/dp/B084KX8W77" target="_blank">
+            <img src="LEVO.jpeg"></a>
+            <H3>LEVO</H3>
+            <p>ENC, Fast Charging Dual Pairing Wireless Earbuds Bluetooth Headset. 88%.<br> ₹3,199. </p>
+            <button class="btn">ADD TO CART</button>
+        </div>  
+        </div>
+</section>
+</body>
+</html>
